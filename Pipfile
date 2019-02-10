@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+aws = ">=0.2.5,<0.3"
+aws-adfs = ">=1.12.3,<2.0"
+awscli = ">=1.16.101,<2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
